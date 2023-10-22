@@ -48,11 +48,32 @@ padding-top: 50;}
     background-color: grey;
     color:blue}
 
+.menu a.active{
+    color: blue;
+    font-weight: bolder ;
+}
+
 .duck{
     max-width: 300;
     max-height: 300;
     border-radius:50%;
     display: block;
-    margin-right: auto;
-    margin-left: 140;
+    float: left;
+    transition: 0.2s all ease-in-out
+}
+
+.duck:hover{
+    transform: scale(1.1)
+}
+
+#student{
+    transition: 0.1s all ease-in-out}
+#student:hover{
+    transform:scale(1.05)
+}
+
+#developer{
+    transition: 0.1s all ease-in-out}
+#developer:hover{
+    transform:scale(1.05)
 }
