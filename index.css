@@ -10,7 +10,8 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 65px;
     text-align: right;
-    padding-right: 100;}
+    padding-right: 100;
+    line-height: 80%;}
 
 
 #gist {
@@ -25,19 +26,19 @@ body {
 #aboutme {
     font-family:'Courier New', Courier, monospaceb;
     float:left;
-    padding-top: 50;
+    padding-top: 200;
     padding-left: 100;
     padding-right: 100;
     text-align: justify;}
 
 @keyframes fadeIn {
     0% {
-        opacity: 0;
-        translate: translateZ(-00%)
+        opacity: -100000;
+        translate: translateY(-100%);
     }
     100% {
         opacity: 1;
-        translate: translateZ(0)
+        translate: translateY(0);
     }}
 
 .menu{
@@ -93,5 +94,21 @@ body {
 #icons{
     float: right;
     margin-right:140;
+}
+
+#wow{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#spotlight{
+    font-size:80;
+    padding-top: 400;
+}
+
+#nrp{
+}
+
+#spotproj{
+    padding-left: 40;
 }
 

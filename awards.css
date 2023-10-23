@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(48, 48, 48);  
+    color: white;   
+    padding-left: 40;
+    line-height: 2;
+}
+
+.menu{
+    overflow: hidden;}
+
+.menu a{
+    float: left;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20;
+    padding: 20px;
+    text-decoration:none;
+    transition: 0.2s all ease-in-out;}
+
+.menu a:hover{
+    transform: scale(1.1)}
+
+.menu a.active{
+    color: white;
+    font-weight: bold;
+
+
+}
+

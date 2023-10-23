@@ -1,0 +1,35 @@
+body{
+    background-color: grey;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.schools{
+    float:right;
+    
+}
+
+#psch{
+    font-size: 50;
+    background-color: rgba(128, 128, 128, 0.209)
+}
+
+#ssch{
+    font-size: 50;
+}
+
+#jc{
+    font-size: 50;
+}
+
+.menu{
+    overflow: hidden;}
+
+.menu a{
+    float: left;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20;
+    padding: 20px;
+    text-decoration:none;
+    transition: 0.2s all ease-in-out;}
