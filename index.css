@@ -1,10 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
 body {
-    background-color: rgb(48, 48, 48);     
+    background-color: white;     
     padding-right: 50px;
     padding-left: 50px;
-    color: white;
     animation: 1s ease-out 0s 1 fadeIn;
     padding: 40px;
 font-family: montserrat;}
@@ -48,9 +47,9 @@ font-family: montserrat;}
     overflow: hidden;}
 
 .menu a{
-    float: left;
-    color: white;
-    font-size: 20;
+    float: right;
+    color: black;
+    font-size: 25;
     padding: 20px;
     text-decoration:none;
     transition: 0.2s all ease-in-out;}
@@ -59,7 +58,6 @@ font-family: montserrat;}
     transform: scale(1.1)}
 
 .menu a.active{
-    color: white;
     font-weight: bold;
 
 
@@ -98,10 +96,6 @@ font-family: montserrat;}
     margin-right:140;
 }
 
-#wow{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
 #spotlight{
     font-size:80;
     padding-top: 400;
@@ -112,13 +106,23 @@ font-family: montserrat;}
     padding-left: 40;
 }
 
-.psch{
-
-
+#education{
+    font-size: 80;
 }
 
-.text{
-    float:right;
-    margin-right: 1000;
-    margin-top: 100;
+.acslogo{
+    max-width: 600;
+    max-height: 600;
+    padding-bottom: 100;
 }
+
+.sstlogo{
+    max-width: 600;
+    max-height: 600;
+}
+
+.jpjclogo{
+    max-width: 600;
+    max-height: 600;
+}
+
