@@ -1,3 +1,3 @@
 My personal portfolio and also my first HTML and CSS Project!
 
-(malcolmkohhs.github.io)
+[Malcolm H S Koh](malcolmkohhs.github.io)
