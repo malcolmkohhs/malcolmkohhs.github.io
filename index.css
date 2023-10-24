@@ -113,12 +113,24 @@ font-family: montserrat;}
 .acslogo{
     max-width: 600;
     max-height: 600;
-    padding-bottom: 100;
+    padding-bottom: 30;
 }
+
+.schoolyear{
+    float:bottom;
+    font-size: 35;
+}
+
+.aboutpsch{
+    float:right;
+}
+
 
 .sstlogo{
     max-width: 600;
     max-height: 600;
+    padding-top: 30;
+    padding-bottom: 20;
 }
 
 .jpjclogo{
