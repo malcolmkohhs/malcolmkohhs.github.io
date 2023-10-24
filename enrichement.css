@@ -1,18 +1,7 @@
-.menu{
-    overflow: hidden;}
-
-.menu a{
-    float: left;
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20;
-    padding: 20px;
-    text-decoration:none;
-    transition: 0.2s all ease-in-out;}
-
-.menu a:hover{
-    transform: scale(1.1)}
-
-.menu a.active{
-    color: white;
-    font-weight: bold;}
+body {
+    background-color: rgb(219, 219, 219);     
+    padding-right: 50px;
+    padding-left: 50px;
+    animation: 1s ease-out 0s 1 fadeIn;
+    padding: 40px;
+    font-family: montserrat;}

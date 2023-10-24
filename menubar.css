@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+
 .menu{
     overflow: hidden;}
 
@@ -7,10 +10,11 @@
     font-size: 25;
     padding: 20px;
     text-decoration:none;
-    transition: 0.2s all ease-in-out;}
+    transition: 0.2s all ease-in-out;
+    font-family: montserrat;}
 
 .menu a:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
     color: red;
 }
 
