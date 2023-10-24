@@ -52,7 +52,8 @@ font-family: montserrat;}
     float: left;
     margin-left: 100;
     margin-right: auto;
-    transition: 0.2s all ease-in-out
+    transition: 0.2s all ease-in-out;
+    padding-bottom: 50;
 }
 
 .duck:hover{
@@ -119,7 +120,6 @@ font-family: montserrat;}
 
 .sschimages{
     display: grid;
-    column-gap:
 }
 
 .sstlogo{
