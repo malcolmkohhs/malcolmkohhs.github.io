@@ -1,4 +1,3 @@
-# malcolmkohhs.github.io
-https://malcolmkohhs.github.io
+My personal portfolio and also my first HTML and CSS Project!
 
-! Work in Progress
+malcolmkohhs.github.io
