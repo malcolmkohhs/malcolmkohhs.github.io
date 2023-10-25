@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+body {
+    background-color: rgb(219, 219, 219);     
+    padding-right: 150px;
+    padding-left: 150px;
+    animation: 1s ease-out 0s 1 fadeIn;
+    padding-bottom: 100px;
+    font-family: montserrat;}
+
+
+
+#education{
+    font-size: 80;
+}
+
+.ssch{
+    display: grid;
+}
+
+
+.acslogo{
+    max-width: 600;
+    max-height: 600;
+    padding-bottom: 30;
+
+
+}
+
+.schoolyear{
+    float:bottom;
+    font-size: 35;
+}
+
+.aboutpsch{
+    float:right;
+
+
+}
+
+.sschimages{
+    display: grid;
+}
+
+.sstlogo{
+    max-width: 600;
+    max-height: 600;
+    padding-top: 30;
+    padding-bottom: 20;
+    grid-column: 1;
+}
+
+.space{
+    grid-column-start: 3;
+    grid-column-end: 20;
+}
+
+.inclogo{
+    grid-column: 2;
+    padding-top: 40;
+
+}
+
+.jpjclogo{
+    max-width: 600;
+    max-height: 600;
+}
