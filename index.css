@@ -17,36 +17,29 @@
     padding-top: 50;
     }
 
-.fa {
+.icon {
     color:rgb(0, 0, 0);
     transition: color 0.2s ease;
     padding: 15;
 }
 
-.fa:hover{
-    color:rgb(63, 63, 63);
+.icon:hover{
+    color:rgb(85, 85, 85);
     cursor: help
 }
 
 
 #aboutme {
-    padding-top: 200;
-    padding-left: 100;
-    padding-right: 100;
+    margin-top: 100;
+    margin-left: 100;
+    margin-right: 100;
     text-align: justify;
     font-size: 30;
+    float: left;
 }
     
 
-@keyframes fadeIn {
-    0% {
-        opacity: -100000;
-        translate: translateY(-100%);
-    }
-    100% {
-        opacity: 1;
-        translate: translateY(0);
-    }}
+
 
 
 .duck{
@@ -58,7 +51,7 @@
     margin-left: 100;
     margin-right: auto;
     transition: 0.2s all ease-in-out;
-    padding-bottom: 50;
+    padding-bottom: 20;
     padding-right: 20;
 }
 
@@ -88,7 +81,7 @@
 
 #spotlight{
     font-size:80;
-    padding-top: 550;
+    padding-top: 400;
 }
 
 
@@ -98,7 +91,7 @@
 
 
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 1280px) {
     .duck{
         display: block;
         margin: auto;
@@ -106,11 +99,13 @@
         padding-right: 0;
         max-width: 600;
     }
-    #gist{
+    #gist{        
         font-size: 50;
+
     }
 
     #aboutme{
         font-size: 50;
     }
 }
+

@@ -8,10 +8,23 @@ body {
     padding: 40px;
     font-family: montserrat;}
 
+    @keyframes fadeIn {
+        0% {
+            opacity: -100000;
+            translate: translateY(-100%);
+        }
+        100% {
+            opacity: 1;
+            translate: translateY(0);
+        }
+    }
+
 
 .topnav{
-    overflow: hidden;}
-
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: rgb(199, 199, 199);
+}
 .topnav a{
     float: right;
     color: black;
@@ -33,9 +46,11 @@ body {
 
 }
 
-
-
-
 .copyright{
     font-size: 20;
+}
+
+
+@media only screen and (max-device-width: 480px){
+
 }
