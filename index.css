@@ -20,6 +20,7 @@
 .fa {
     color:rgb(0, 0, 0);
     transition: color 0.2s ease;
+    padding: 15;
 }
 
 .fa:hover{

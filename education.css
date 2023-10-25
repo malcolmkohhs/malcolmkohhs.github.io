@@ -1,14 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
-body {
-    background-color: rgb(219, 219, 219);     
-    padding-right: 50px;
-    padding-left: 50px;
-    animation: 1s ease-out 0s 1 fadeIn;
-    padding: 30px;
-    font-family: montserrat;}
-
-
 
 #education{
     font-size: 80;
@@ -65,3 +56,32 @@ body {
     max-width: 600;
     max-height: 600;
 }
+
+
+
+@media only screen and (max-device-width: 480px){
+    .acslogo{
+        display:block;
+        margin: auto;
+        float: none
+    }
+    .aboutpsch{
+        font-size: 35;
+    }
+    .sstlogo{
+        display: block;
+        margin: auto;
+        float: none;
+    }
+    }
+    .aboutssch{
+        font-size: 35;
+    }
+    .jpjclogo{
+        display: block;
+        margin: auto;
+        float: none;
+    }
+    .aboutjc{
+        font-size: 35;
+    }
