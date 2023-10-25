@@ -2,10 +2,10 @@
 
 body {
     background-color: rgb(219, 219, 219);     
-    padding-right: 150px;
-    padding-left: 150px;
+    padding-right: 50px;
+    padding-left: 50px;
     animation: 1s ease-out 0s 1 fadeIn;
-    padding-bottom: 100px;
+    padding: 30px;
     font-family: montserrat;}
 
 
