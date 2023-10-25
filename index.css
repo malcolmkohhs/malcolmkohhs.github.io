@@ -24,11 +24,11 @@
 
 .fa:hover{
     color:rgb(63, 63, 63);
+    cursor: help
 }
 
 
 #aboutme {
-    float:left;
     padding-top: 200;
     padding-left: 100;
     padding-right: 100;
@@ -97,3 +97,19 @@
 
 
 
+@media only screen and (max-device-width: 480px) {
+    .duck{
+        display: block;
+        margin: auto;
+        float: none;
+        padding-right: 0;
+        max-width: 600;
+    }
+    #gist{
+        font-size: 50;
+    }
+
+    #aboutme{
+        font-size: 50;
+    }
+}
