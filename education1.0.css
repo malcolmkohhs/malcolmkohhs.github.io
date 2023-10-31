@@ -1,0 +1,152 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+
+#education{
+    font-size: 80;
+}
+
+.ssch{
+    display: grid;
+}
+
+
+.acslogo{
+    max-width: 600;
+    max-height: 600;
+    padding-bottom: 30;
+    grid-column: 1;
+}
+
+.schoolyear{
+    float:bottom;
+    font-size: 35;
+    padding-bottom: 20;
+}
+
+.aboutpsch{
+    text-align: justify;
+    grid-column: 3;
+}
+
+.aboutssch{
+    text-align: justify;
+    grid-column: 3;
+}
+
+
+
+.aboutjc{
+    text-align: justify;
+}
+
+.sschimages{
+    display: grid;
+    grid-column: 1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding-right: 50;
+}
+
+.sstlogo{
+    max-width: 600;
+    max-height: 600;
+    
+    padding-top: 30;
+    grid-column: 1;
+}
+
+.space{
+    grid-column-start: 3;
+    grid-column-end: 20;
+}
+
+.inclogo{
+    grid-column: 2;
+    padding-top: 40;
+
+}
+
+.jcimages{
+    display: grid;
+}
+
+.jpjclogo{
+    max-width: 400;
+    max-height: 600;
+    grid-column: 1;
+}
+
+.interactlogo{
+    grid-column: 2;
+    padding-top: 80;
+    max-width: 350;
+}
+
+.ssch{
+    display: grid;
+    place-items: center;
+}
+
+.psch{
+    display: grid;
+    place-items: center;
+}
+
+
+@media only screen and (max-device-width: 480px){
+    .acslogo{
+        display:block;
+        margin: auto;
+        float: none
+    }
+    .aboutpsch{
+        font-size: 35;
+    }
+    .sstlogo{
+        display: block;
+        margin: auto;
+        float: none;
+    }
+
+    .inclogo{
+        display: block;
+        margin: auto;
+        float: none;
+    }
+    
+    .sschimages{
+        display: block;
+    }
+    
+    .aboutssch{
+        font-size: 35;
+    }
+
+    .jcimages{
+        display: block;
+    }
+    .jpjclogo{
+        display: block;
+        margin: auto;
+        float: none;
+    }
+    .interactlogo{
+        display: block;
+        margin: auto;
+        float: none;
+        padding-top: 0
+        ;
+    }
+
+    .aboutjc{
+        font-size: 35;
+    }
+
+    .ssch{
+        display: block;
+    }
+
+    .psch{
+        display: block;
+    }
+}
